@@ -1,0 +1,88 @@
+.Special {
+  padding: 30px 0 0 0;
+}
+
+.Profile-links > a {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.Profile-links > a:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.Profile-links > a:hover {
+  color: indianred;
+}
+
+.Profile-links > a > i {
+  font-size: 1.9em;
+}
+
+@media (min-width: 1154px) {
+  .Special {
+    margin-top: 50px !important;
+  }
+
+  .Profile-links {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Special {
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+
+  .Profile-links > a:not(:last-child) {
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .Special {
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+
+  .Profile-links {
+    margin-top: 30px;
+  }
+
+  .Profile-links > a:not(:last-child) {
+    margin: 0 20px 0 0;
+  }
+
+  .Profile-links > a > i {
+    font-size: 1.9em;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .Special {
+    margin-top: 30px;
+    padding: 30px 0 0 30px;
+  }
+
+  .Profile-links {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Special {
+    text-align: center;
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Profile-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Profile-links > a:not(:last-child) {
+    margin: 0 20px 0 0;
+  }
+}

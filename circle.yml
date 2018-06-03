@@ -1,0 +1,27 @@
+machine:
+  node:
+    version: 8.11.1
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+dependencies:
+  override:
+    - yarn
+  cache_directories:
+    - ~/.cache/yarn
+test:
+  override:
+    - yarn test -- --coverage
+  post:
+    - yarn global add codeclimate-test-reporter
+    - codeclimate-test-reporter < coverage/lcov.info
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.email ${GH_EMAIL}
+      - git config --global user.name ${GH_NAME}
+      - yarn deploy
+general:
+  branches:
+    ignore:
+      - gh-pages

@@ -1,3 +1,7 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
 machine:
   node:
     version: 8.11.1
@@ -21,7 +25,3 @@ deployment:
       - git config --global user.email ${GH_EMAIL}
       - git config --global user.name ${GH_NAME}
       - yarn deploy
-general:
-  branches:
-    ignore:
-      - gh-pages

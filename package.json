@@ -15,7 +15,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "react-app-rewired build && gh-pages -d build"
+    "echo-cname": "echo vigneshprasad.com > build/CNAME",
+    "deploy": "react-app-rewired build && yarn echo-cname && gh-pages -d build"
   },
   "devDependencies": {
     "babel-plugin-import": "1.7.0",

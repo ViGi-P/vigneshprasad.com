@@ -1,7 +1,8 @@
 {
   "name": "vigneshprasad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
+  "homepage" : "http://vigi-p.github.io/vigneshprasad.com"
   "dependencies": {
     "antd": "3.6.1",
     "react": "16.4.0",

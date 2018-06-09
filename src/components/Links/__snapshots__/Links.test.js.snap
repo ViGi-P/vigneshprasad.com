@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders links 1`] = `
+<Row
+  gutter={0}
+>
+  <Col
+    className="Special"
+    lg={12}
+    md={10}
+    sm={10}
+    xs={24}
+  >
+    <h2>
+      Frontend Developer specialising in React & React Native.
+    </h2>
+    <p
+      className="Profile-links"
+    >
+      <a
+        href="mailto:vigneshdmanfb@gmail.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="mail"
+        />
+      </a>
+      <a
+        href="https://github.com/ViGi-P"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="github"
+        />
+      </a>
+      <a
+        href="https://gitlab.com/ViGi-P"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="gitlab"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/vignesh-prasad"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="linkedin"
+        />
+      </a>
+      <a
+        href="https://profiles.udacity.com/p/11091209444"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="profile"
+        />
+      </a>
+      <a
+        href="https://twitter.com/vigneshdman"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Icon
+          type="twitter"
+        />
+      </a>
+    </p>
+  </Col>
+</Row>
+`;

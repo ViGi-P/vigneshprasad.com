@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders projects 1`] = `
+<List
+  bordered={false}
+  className="Projects"
+  dataSource={
+    Array [
+      Object {
+        "description": "Minimalistic & performant video website.",
+        "live": "https://vigi-p.github.io/vigitube/",
+        "repo": "https://github.com/ViGi-P/vigitube",
+        "title": "VigiTube",
+      },
+      Object {
+        "description": "Fully functioning front end for an anonymous blogging website.",
+        "repo": "https://github.com/ViGi-P/UdaBlog",
+        "title": "UdaBlog",
+      },
+      Object {
+        "description": "Boilerplate CI/CD setup for React, CircleCI & Heroku.",
+        "live": "https://vigicicd.herokuapp.com/",
+        "repo": "https://github.com/ViGi-P/react-circle-heroku",
+        "title": "React-Circle-Heroku",
+      },
+      Object {
+        "description": "Boilerplate CI/CD setup for React, CircleCI & Firebase.",
+        "live": "https://react-ci-5ef7d.firebaseapp.com/",
+        "repo": "https://github.com/ViGi-P/react-circle-firebase",
+        "title": "React-Circle-Firebase",
+      },
+      Object {
+        "description": "Mobile flashcards based self quizzing app made with React Native.",
+        "repo": "https://github.com/ViGi-P/UdaQuiz",
+        "title": "UdaQuiz",
+      },
+      Object {
+        "description": "Showcase for my favourite books.",
+        "live": "https://vigi-p.github.io/MyReads/",
+        "repo": "https://github.com/ViGi-P/MyReads",
+        "title": "MyReads",
+      },
+    ]
+  }
+  grid={
+    Object {
+      "gutter": 16,
+      "lg": 3,
+      "md": 3,
+      "sm": 2,
+      "xl": 3,
+      "xs": 1,
+      "xxl": 6,
+    }
+  }
+  header={
+    <div
+      id="List-header"
+    >
+      Latest Projects
+    </div>
+  }
+  itemLayout="vertical"
+  loading={false}
+  pagination={false}
+  prefixCls="ant-list"
+  renderItem={[Function]}
+  split={false}
+/>
+`;

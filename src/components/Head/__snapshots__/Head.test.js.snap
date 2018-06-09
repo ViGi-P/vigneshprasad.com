@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header 1`] = `
+<Adapter
+  className="Header"
+  style={
+    Object {
+      "background": "url(Background.jpg)",
+    }
+  }
+>
+  <Row
+    gutter={0}
+  >
+    <Col
+      lg={10}
+      md={12}
+      sm={12}
+      xs={24}
+    >
+      <Card
+        bordered={false}
+        className="Main-card"
+        cover={
+          <img
+            alt="DP"
+            id="DP"
+            src="DP.jpg"
+          />
+        }
+      >
+        <Component
+          description={
+            <div
+              className="Main-card-text"
+            >
+              Software Engineer
+            </div>
+          }
+          title={
+            <div
+              className="Main-card-text"
+            >
+              Vignesh Prasad
+            </div>
+          }
+        />
+      </Card>
+    </Col>
+  </Row>
+</Adapter>
+`;

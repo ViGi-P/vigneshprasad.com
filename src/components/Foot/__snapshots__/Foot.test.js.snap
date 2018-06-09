@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders footer 1`] = `
+<Adapter
+  id="Footer"
+>
+  Developing software with 
+  <Icon
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "0.9em",
+      }
+    }
+    type="heart"
+  />
+   from 
+  <a
+    href="https://www.google.com/search?ei=VW0UW8W3A8r4vAS1uZqwBA&q=Kochi%2C+Kerala&oq=Kochi%2C+Kerala&gs_l=psy-ab.3..0i67k1j0i7i30k1j0j0i7i30k1l2j0j0i7i30k1l4.5301.5301.0.5606.1.1.0.0.0.0.110.110.0j1.1.0....0...1.1.64.psy-ab..0.1.110....0.BjJLtdHazNE"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <Icon
+      style={
+        Object {
+          "color": "orange",
+          "fontSize": "0.9em",
+        }
+      }
+      type="environment"
+    />
+     Kochi, Kerala
+  </a>
+</Adapter>
+`;

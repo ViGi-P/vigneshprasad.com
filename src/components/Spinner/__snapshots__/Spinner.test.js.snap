@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders spinner 1`] = `
+<div
+  className="spinner-container"
+>
+  <div
+    className="spinner"
+  >
+    <svg
+      viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        className="length"
+        cx="33"
+        cy="33"
+        fill="none"
+        r="28"
+        strokeLinecap="round"
+        strokeWidth="8"
+      />
+    </svg>
+    <svg
+      viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="33"
+        cy="33"
+        fill="none"
+        r="28"
+        strokeLinecap="round"
+        strokeWidth="8"
+      />
+    </svg>
+    <svg
+      viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="33"
+        cy="33"
+        fill="none"
+        r="28"
+        strokeLinecap="round"
+        strokeWidth="8"
+      />
+    </svg>
+    <svg
+      viewBox="0 0 66 66"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="33"
+        cy="33"
+        fill="none"
+        r="28"
+        strokeLinecap="round"
+        strokeWidth="8"
+      />
+    </svg>
+  </div>
+</div>
+`;

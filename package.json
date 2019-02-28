@@ -8,7 +8,7 @@
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-scripts": "1.1.5",
-    "typeface-nunito": "0.0.54"
+    "typeface-nunito": "0.0.72"
   },
   "scripts": {
     "start": "react-app-rewired start",

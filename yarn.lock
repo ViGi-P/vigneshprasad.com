@@ -248,9 +248,9 @@ ansistyles@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/ansistyles/-/ansistyles-0.1.3.tgz#5de60415bda071bb37127854c864f41b23254539"
 
-antd@3.19.4:
-  version "3.19.4"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.19.4.tgz#43e6285459b359e1bf48a649b109b7083ab21f18"
+antd@3.19.5:
+  version "3.19.5"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.19.5.tgz#f206ae40889b6189de38b9c681bc9f44a1c2bb54"
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
     "@ant-design/icons" "~2.0.0"

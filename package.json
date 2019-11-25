@@ -20,7 +20,7 @@
     "deploy": "react-app-rewired build && yarn echo-cname && yarn cp-circle && gh-pages -d build"
   },
   "devDependencies": {
-    "babel-plugin-import": "1.12.2",
+    "babel-plugin-import": "1.13.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.15.1",
     "enzyme-to-json": "3.4.3",

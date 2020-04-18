@@ -4,7 +4,7 @@
   "private": true,
   "homepage" : "http://vigi-p.github.io/",
   "dependencies": {
-    "antd": "3.26.15",
+    "antd": "4.1.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "1.1.5",
